@@ -7,7 +7,7 @@ The following are the steps we followed in this project:
 
 1. **Data Collection:** We used the Plant Pathology Apple Tree Disease Dataset from Kaggle. This dataset contains around 3800 train and test images combined, with each image containing either a healthy leaf or a leaf with diseases such as scab, rust, or more than one disease.
 
-2.** Data Preprocessing:** We resized all the images to 224 x 224 pixels and converted them to grayscale. We also normalized the pixel values to be between 0 and 1.
+2. **Data Preprocessing:** We resized all the images to 224 x 224 pixels and converted them to grayscale. We also normalized the pixel values to be between 0 and 1.
 
 3. **Data Augmentation**: We applied data augmentation techniques such as rotation, horizontal and vertical flip, and zooming to generate more data and improve the model's robustness.
 
